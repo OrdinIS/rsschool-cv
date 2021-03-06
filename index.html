@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ilya Ordin CV</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container__column container__column--contacts">
+      <header class="page-header name">
+        <img class="name__img" src="img/img1.jpg" alt="photo of me" width="250">
+        <h1 class="name__title">Ilya Ordin</h1>
+        <p class="name__description">Frontend-Developer</p>
+      </header>
+      <article class="contacts">
+        <h2 class="contacts__title">Contacts</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="contacts__item--phone" href="tel:+9508195676">Тел: +7(950) 819-56-76</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__item--mail" href="mailto:mambarinka@mail.ru">ilya.sergeevich.master@gmail.com</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__item--location"
+              href="https://yandex.ru/maps/44/izhevsk/house/ulitsa_gertsena_8k1/YUoYdAJgQEEDQFtsfXR0cn5gbA==/?ll=53.253311%2C56.853205&utm_source=main_stripe_big&z=17.4">Izhevsk,
+              Russia</a>
+          </li>
+        </ul>
+      </article>
+
+    </div>
+    <div class="container__column">
+      <main class="page-main">
+        <section class="about-me">
+          <h2 class="about-me__title">About me</h2>
+          <p class="about-me__text">I have a goal to become a good front-end developer. However, I have no experience in creating websites. As for me, programming is very interesting.</p>
+        </section>
+
+        <section class="education">
+          <h2 class="education__title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <p>Izhevsk State Technical University</p>
+              <p>Instrument-making faculty</p>
+              <p>2015-2019</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skills">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <p>Programming-skills: HTML, CSS , JavaScript (begginer)</p>
+            </li>
+            <li class="skills__item">
+                <p>Soft-skills: Good Comunication, adaptability</p>
+              </li>
+          </ul>
+        </section>
+
+        <section class="code-example">
+          <h2 class="code-example__title">Code example:</h2>
+          <pre class="code-example__content"><code>
+            function findShort(s){
+                return Math.min.apply(null, s.split(' ').map(w => w.length));
+              }
+            </code></pre>
+        </section>
+
+        <section class="english">
+          <h2 class="english__title">English</h2>
+          <p class="english-text">Pre-intermediate (A2+)</p>
+        </section>
+      </main>
+    </div>
+
+    <footer class="page-footer information">
+      <h2 class="information__title visually-hidden">Ссылка на мой гитхаб, год создания приложения, логотип курса со
+        ссылкой</h2>
+      <a class="information__github" href="https://github.com/ordinis">Follow me on GitHub</a>
+      <span class="information__year">2021</span>
+      <a class="information__rsschool" href="https://rs.school/js/"></a>
+
+    </footer>
+  </div>
+</body>
+
+</html>
